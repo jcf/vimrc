@@ -1,14 +1,6 @@
 # Dotfiles for Vim
 
-## Structure
-
-Everything is kept in vim.symlink. This directory is linked to from
-`~/.vim` when you run `rake install`.
-
-Any vim files in vim.symlink/config will be loaded automatically when
-Vim starts up.
-
-### Config files
+## Config files
 
 - **00-bundles.vim** contains all instructions for NeoBundle.
 - **05-gui.vim** contains all configuration that will be loaded only in
